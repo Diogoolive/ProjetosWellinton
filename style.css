@@ -1,0 +1,31 @@
+body {
+    background-color:rgb(250, 246, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    color:rebeccapurple;
+}
+
+h3 {
+    text-align: center;
+    color: green;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
