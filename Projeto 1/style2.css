@@ -24,10 +24,38 @@ nav a {
 }
 
 .conteudo {
-    background-color:darkgray;
+    background-color:rgb(255, 0, 0);
     margin: 30px;
     padding: 20px;
     border-radius: 10;
+}
+.conteudo h1 {
+    color:gold;
+}
+
+.controle {
+    background-color:green;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+    text-align: center;
+}
+.controle h1 {
+    color:greenyellow;
+}
+
+.seila {
+    background-color: pink;
+}
+
+.seila h1 {
+    color:deeppink;
+}
+
+footer {
+    background-color:cornflowerblue;
+    color: red;
+    padding: 15px;
 }
 
 h1 {
@@ -36,10 +64,4 @@ h1 {
 
 p {
     font-size: 18px;
-}
-
-footer {
-    background-color: rgb(213, 222, 222);
-    color: red;
-    padding: 15px;
 }
