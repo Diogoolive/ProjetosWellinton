@@ -33,13 +33,14 @@ nav a {
     color:gold;
 }
 
-p.emoji::after {
-    content: "😎";
-    color: aqua;
-}
 
-p.emojifrutas::after {
-    content: "🍇🍊🍏🥝🥥";
+
+
+
+
+p.emoji::after {
+    content: "😎😇😊😴🤑🤗🤭😸";
+    color: aqua;
 }
 p.emoji::before {
     content: "E";
@@ -47,6 +48,30 @@ p.emoji::before {
 p.emoji::first-letter {
     font-size: 40px;
 }
+
+
+p.emojifrutas::after {
+    content: "🍇🍊🍎🍉🍓";
+}
+p.emojifrutas::before {
+    content: "E";
+    font-size: 40px;
+}
+
+
+p.emojicomida::after {
+    content: "🍔🍕🍰🍩🍣🍤";
+}
+p.emojicomida::before {
+    content: "E";
+    font-size: 40px;
+}
+
+
+
+
+
+
 
 .controle {
     background-color:green;
