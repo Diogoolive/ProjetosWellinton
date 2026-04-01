@@ -54,7 +54,7 @@ p.emojifrutas::after {
     content: "🍇🍊🍎🍉🍓";
 }
 p.emojifrutas::before {
-    content: "E";
+    content: "&";
     font-size: 40px;
 }
 
@@ -62,11 +62,18 @@ p.emojifrutas::before {
 p.emojicomida::after {
     content: "🍔🍕🍰🍩🍣🍤";
 }
-p.emojicomida::before {
-    content: "E";
+p.emojicomida::first-letter {
     font-size: 40px;
 }
+/*O "before" você escolhe qual vai ser a letra que vai ficar grande ou destacada. O "First-letter" ele pegar  primeira letra da palavra e deixa ela grande ou destacada.*/
 
+/*
+::before: Cria um conteúdo antes do texto de um elemento. É muito usado para colocar ícones ou aspas decorativas automaticamente.
+::after: Igual ao anterior, mas cria o conteúdo depois do texto. Ótimo para setas em botões ou enfeites no final de frases.
+::first-letter: Estiliza apenas a primeira letra de um parágrafo (como aquelas letras grandes em capítulos de livros antigos).
+::first-line: Estiliza apenas a primeira linha de um bloco de texto. Se o usuário redimensionar a tela e a linha mudar, o CSS se adapta sozinho.
+::placeholder: Estiliza aquele texto de dica que fica dentro de campos de formulário (ex: "Digite seu e-mail aqui") antes de você começar a escrever. 
+*/
 
 
 
