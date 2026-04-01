@@ -33,6 +33,21 @@ nav a {
     color:gold;
 }
 
+p.emoji::after {
+    content: "😎";
+    color: aqua;
+}
+
+p.emojifrutas::after {
+    content: "🍇🍊🍏🥝🥥";
+}
+p.emoji::before {
+    content: "E";
+}
+p.emoji::first-letter {
+    font-size: 40px;
+}
+
 .controle {
     background-color:green;
     padding: 20px;
