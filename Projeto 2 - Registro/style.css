@@ -13,15 +13,14 @@ body {
     align-items: center;
     height: 500px;
     padding: 0 50px;  
-    background: linear-gradient(to right, rgb(79, 201, 79), lime, green);
+    background: linear-gradient(to right, rgb(227, 117, 117), rgb(203, 48, 48), rgb(188, 0, 0));
 }
 
 .mojang img {
     display: block;
-    height: auto;
+    height: 300px;
     width: 30%;
-    max-width: 100%;
-    margin-left: auto;
+    margin-left: 20px;
 }
 
 div h1 {
@@ -39,7 +38,7 @@ div p {
 }
 
 .separar {
-    background-color: gray;
+    background-color: rgb(146, 0, 0);
     color: gray;
     height: 10px;
 }
