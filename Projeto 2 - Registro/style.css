@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 
+/*Primeira parte do Site, onde mostra a imagem da mojang e o título.*/
 .mojang {
     font-family: Arial, Helvetica, sans-serif;   
     display: flex;
@@ -36,6 +37,8 @@ div p {
 .descricaom::first-letter {
     font-size: 70px;
 }
+/*-------------------------------------------------------------------------------*/
+
 
 .separar {
     background-color: rgb(146, 0, 0);
@@ -44,6 +47,7 @@ div p {
 }
 
 
+/*--------------Parte do Minecraft-------------------------------------------------------*/
 .mine {
     background-color: rgb(33, 32, 32);
     height: 900px;
@@ -68,10 +72,13 @@ div p {
     margin-left: auto;
     margin-right: auto;
 }
+/*--------------------------------------------------------------------------------*/
 
+
+/*------------------------------Parte do Scrolls------------------------------------*/
 .scrolls {
     background-color: rgb(33, 32, 32);
-    height: 400px;
+    min-height: 400px;
     margin: 20px;
     padding: 20px;
 }
@@ -90,9 +97,73 @@ div p {
     margin-left: auto;
     margin-right: auto;
 }
+/*----------------------------------------------------------------------*/
+
 
 .separar2 {
     background-color: gray;
     color: gray;
     height: 10px;
+}
+
+/*--------------------------Parte Minecraft: Story Mode------------------------------*/
+.minestory {
+    background-color: rgb(33, 32, 32);
+    min-height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.minestory h1 {
+    color: silver;
+}
+.minestory p {
+    color: silver;
+    text-align: justify;
+    font-size: 20px;
+}
+.minestory img {
+    height: auto;
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-------------------------------------------------------------------------*/
+
+/*--------Parte do cobalt-----------------------------------------------------*/
+.cobalt {
+    background-color: rgb(33, 32, 32);
+    min-height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.cobalt h1 {
+    color: silver;
+}
+.cobalt p {
+    color: silver;
+    text-align: justify;
+    font-size: 20px;
+}
+.cobalt img {
+    height: auto;
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*------------------------------------------------------------------------*/
+.crown {
+    background-color: rgb(33, 32, 32);
+    min-height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.crown h1 {
+    color: silver;
+}
+.crown p {
+    color: silver;
+    text-align: justify;
+    font-size: 20px;
 }
