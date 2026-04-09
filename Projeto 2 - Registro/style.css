@@ -69,6 +69,28 @@ div p {
     margin-right: auto;
 }
 
+.scrolls {
+    background-color: rgb(33, 32, 32);
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.scrolls h1 {
+    color: silver;
+}
+.scrolls p {
+    color: silver;
+    text-align: justify;
+    font-size: 20px;
+}
+.scrolls img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .separar2 {
     background-color: gray;
     color: gray;
