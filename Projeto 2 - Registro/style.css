@@ -35,7 +35,7 @@ div p {
 }
 
 .descricaom::first-letter {
-    font-size: 70px;
+    font-size: 90px;
 }
 /*-------------------------------------------------------------------------------*/
 
@@ -66,7 +66,7 @@ div p {
 }
 
 .mine img {
-    height: auto;
+    height: 600px;
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -75,10 +75,13 @@ div p {
 /*--------------------------------------------------------------------------------*/
 
 
+
+
+
 /*------------------------------Parte do Scrolls------------------------------------*/
 .scrolls {
     background-color: rgb(33, 32, 32);
-    min-height: 400px;
+    min-height: 900px;
     margin: 20px;
     padding: 20px;
 }
@@ -91,7 +94,7 @@ div p {
     font-size: 20px;
 }
 .scrolls img {
-    height: auto;
+    height: 450px;
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -106,10 +109,11 @@ div p {
     height: 10px;
 }
 
+
 /*--------------------------Parte Minecraft: Story Mode------------------------------*/
 .minestory {
     background-color: rgb(33, 32, 32);
-    min-height: 400px;
+    min-height: 900px;
     margin: 20px;
     padding: 20px;
 }
@@ -129,6 +133,10 @@ div p {
     margin-right: auto;
 }
 /*-------------------------------------------------------------------------*/
+
+
+
+
 
 /*--------Parte do cobalt-----------------------------------------------------*/
 .cobalt {
@@ -153,6 +161,10 @@ div p {
     margin-right: auto;
 }
 /*------------------------------------------------------------------------*/
+
+
+
+
 
 /*-------------------------Parte Crown and Council-----------------------------------------------*/
 .crown {
@@ -179,4 +191,87 @@ div p {
 
 /*---------------------------------------------------------------------------------------------*/
 
-/*---------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------Parte Minecraft Earth---------------------------------------------*/
+
+.earth {
+    background-color: rgb(33, 32, 32);
+    min-height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.earth h1 {
+    color: silver;
+}
+.earth p {
+    color: silver;
+    text-align: justify;
+    font-size: 20px;
+}
+.earth img {
+    height: 450px;
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------Parte Minecraft Dungeons----------------------------------------------------*/
+
+.dungeons {
+    background-color: rgb(33, 32, 32);
+    min-height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.dungeons h1{
+    color: silver;
+}
+.dungeons p {
+    color: silver;
+    text-align: justify;
+    font-size: 20px;
+}
+.dungeons img {
+    height: auto;
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------Parte Minecraft Legends-------------------------------------------------------*/
+.legends {
+    background-color: rgb(33, 32, 32);
+    min-height: 400px;
+    margin: 20px;
+    padding: 20px;
+}
+.legends h1 {
+    color: silver;
+}
+.legends p {
+    color: silver;
+    text-align: justify;
+    font-size: 20px;
+}
+.legends img {
+    height: 600px;
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
