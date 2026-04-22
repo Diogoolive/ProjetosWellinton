@@ -39,14 +39,6 @@ div p {
 }
 /*-------------------------------------------------------------------------------*/
 
-
-.separar {
-    background-color: rgb(146, 0, 0);
-    color: gray;
-    height: 10px;
-}
-
-
 /*--------------Parte do Minecraft-------------------------------------------------------*/
 .mine {
     background-color: rgb(33, 32, 32);
@@ -81,7 +73,7 @@ div p {
 /*------------------------------Parte do Scrolls------------------------------------*/
 .scrolls {
     background-color: rgb(33, 32, 32);
-    min-height: 900px;
+    min-height: 400px;
     margin: 20px;
     padding: 20px;
 }
@@ -113,7 +105,7 @@ div p {
 /*--------------------------Parte Minecraft: Story Mode------------------------------*/
 .minestory {
     background-color: rgb(33, 32, 32);
-    min-height: 900px;
+    min-height: 400px;
     margin: 20px;
     padding: 20px;
 }
